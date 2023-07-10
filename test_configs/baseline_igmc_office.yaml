@@ -1,0 +1,28 @@
+---
+key: test_rmse
+model:
+  type: IGMC
+  hop: 1
+  num_relations: 5
+  latent_dims:
+    - 32
+    - 32
+    - 32
+    - 32
+  edge_dropout: 0.5
+  parameters: baseline_igmc_office_0.2239.pt
+
+dataset:
+  name: office
+  file_name: office_core
+  efeat: ~
+
+
+train:
+  device: 0
+  epochs: 20
+  batch_size: 128
+  learning_rates:
+    - 1e-3
+  log_interval: 100
+  log_dir: log

@@ -1,0 +1,14 @@
+files:
+  - ./test_configs/cgmc_games_edge.yaml
+  - ./test_configs/cgmc_movie_edge.yaml
+  - ./test_configs/cgmc_music_edge.yaml
+  - ./test_configs/cgmc_office_edge.yaml
+  - ./test_configs/cgmc_sports_edge.yaml
+  # - ./test_configs/cgmc_yelp_edge.yaml #We exclude Yelp dataset because, it is too large to upload github
+
+  # - ./test_configs/baseline_igmc_games.yaml
+  # - ./test_configs/baseline_igmc_movie.yaml
+  # - ./test_configs/baseline_igmc_music.yaml
+  # - ./test_configs/baseline_igmc_office.yaml
+  # - ./test_configs/baseline_igmc_sports.yaml
+  # - ./test_configs/baseline_igmc_yelp.yaml

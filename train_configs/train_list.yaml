@@ -1,0 +1,32 @@
+files:
+  - ./train_configs/cgmc_movie_edge.yaml
+  - ./train_configs/cgmc_games_edge.yaml
+  - ./train_configs/cgmc_office_edge.yaml
+  - ./train_configs/cgmc_sports_edge.yaml
+  - ./train_configs/cgmc_music_edge.yaml
+  - ./train_configs/cgmc_yelp_edge.yaml
+
+  # - ./train_configs/cgmc_yelp_edge_bert.yaml
+  # - ./train_configs/cgmc_music_edge_bert.yaml
+
+  # - ./train_configs/cgmc_sports_node.yaml
+  # - ./train_configs/cgmc_sports_mix.yaml
+
+  # - ./train_configs/cgmc_music_node.yaml
+  # - ./train_configs/cgmc_music_mix.yaml
+
+  # - ./train_configs/cgmc_games_node.yaml
+  # - ./train_configs/cgmc_games_mix.yaml
+
+  # - ./train_configs/cgmc_office_node.yaml
+  # - ./train_configs/cgmc_office_mix.yaml
+
+  # - ./train_configs/cgmc_movie_node.yaml
+  # - ./train_configs/cgmc_movie_mix.yaml
+
+  # - ./train_configs/baseline/baseline_igmc_movie.yaml
+  # - ./train_configs/baseline/baseline_igmc_office.yaml
+  # - ./train_configs/baseline/baseline_igmc_games.yaml
+  # - ./train_configs/baseline/baseline_igmc_music.yaml
+  # - ./train_configs/baseline/baseline_igmc_sports.yaml
+  # - ./train_configs/baseline/baseline_igmc_yelp.yaml
